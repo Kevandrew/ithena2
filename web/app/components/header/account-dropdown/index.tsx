@@ -123,7 +123,7 @@ export default function AppSelector({ isMobile }: IAppSelector) {
                     <Menu.Item>
                       <Link
                         className={classNames(itemClassName, 'group justify-between')}
-                        href='https://github.com/langgenius/dify/discussions/categories/feedbacks'
+                        href='https://github.com/IThena/dify/discussions/categories/feedbacks'
                         target='_blank' rel='noopener noreferrer'>
                         <div>{t('common.userProfile.communityFeedback')}</div>
                         <ArrowUpRight className='hidden w-[14px] h-[14px] text-gray-500 group-hover:flex' />
